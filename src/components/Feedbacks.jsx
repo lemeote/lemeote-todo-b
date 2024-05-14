@@ -8,6 +8,7 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
+  job,
   link,
   image,
 }) => (
@@ -41,9 +42,9 @@ const Feedbacks = () => {
         <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Social Profiles</h2>
         <p className={styles.sectionSubText}>Click on social media icons to check out..</p>
-      </motion.div>
+        </motion.div>
       </div>
-      
+
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.key} index={index} {...testimonial} />

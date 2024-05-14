@@ -60,6 +60,11 @@ import twitterbot from './projectimg/twitterbot.png'
 import monox from './projectimg/monox.png'
 import medley from './projectimg/medley.png'
 import jdlandscaping from './projectimg/jdlandscaping.png'
+import judge from "./projectimg/judge.png"
+import evo from "./projectimg/evo.png"
+import clarityscan from './projectimg/clarityscan.png'
+import sigma from './projectimg/sigma.png'
+import poker from './projectimg/poker.png'
 
 
 export {
@@ -120,4 +125,9 @@ export {
   gmail,
   discord,
   skype,
+  judge,
+  evo,
+  clarityscan,
+  sigma,
+  poker,
 };

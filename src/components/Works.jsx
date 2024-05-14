@@ -17,6 +17,7 @@ const ProjectCard = ({
   source_code_link,
   vercel_link,
   online_link,
+  netlify_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -60,6 +61,18 @@ const ProjectCard = ({
                 />
               </div>
             )}
+            {netlify_link && (
+              <div
+                onClick={() => window.open(netlify_link, "_blank")}
+                className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={netlify}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
             {online_link && (
               <div
                 onClick={() => window.open(online_link, "_blank")}
@@ -77,7 +90,11 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[22px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description.length > 60 ? `${description.substring(0,100)}...`: `${description}.`}</p>
+          <p className="mt-2 text-secondary text-[14px]">
+            {description.length > 60
+              ? `${description.substring(0, 100)}...`
+              : `${description}.`}
+          </p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

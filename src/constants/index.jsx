@@ -49,6 +49,11 @@ import {
   gmail,
   discord,
   skype,
+  judge,
+  evo,
+  clarityscan,
+  sigma,
+  poker,
 } from "../assets";
 
 export const navLinks = [
@@ -214,10 +219,77 @@ const testimonials = [
 
 const projects = [
   {
+    name: "SigmaSwap Bridge",
+    description:
+      "☁️ Sigmaswap is like a magical bridge 🌉 that connects Luxo Chain with other blockchains. It enables users to seamlessly transfer their assets (tokens) between Luxo Chain and other compatible chains.🚀🌌",
+    tags: [
+      { name: "Next", color: "orange-text-gradient" },
+      { name: "Solidity", color: "blue-text-gradient" },
+      { name: "web3", color: "green-text-gradient" },
+    ],
+    image: sigma,
+    vercel_link: "https://m8-b-bridge-app.vercel.app/en",
+    source_code_link: "https://github.com/kai-610/M8B_BridgeApp.git",
+  },
+  {
+    name: "ClarityScan",
+    description:
+      "AI-driven smart contract audit tool automating thorough examination and validation of multiple smart contract types, detecting vulnerabilities and suggesting optimizations.",
+    tags: [
+      { name: "React", color: "orange-text-gradient" },
+      { name: "postgreSQL", color: "blue-text-gradient" },
+      { name: "Clarity", color: "green-text-gradient" },
+      { name: "openAI", color: "orange-text-gradient" },
+    ],
+    image: clarityscan,
+    netlify_link: "https://main.d8cg59j3fa9ta.amplifyapp.com/",
+    source_code_link: "https://github.com/kai-610/clarityscan-frontend.git",
+  },
+  {
+    name: "Evox Exchange",
+    description:
+      "Developing EVOX Exchange's smart contracts empowering decentralized margin trading and DAO governance exhibits my expertise in inventive DeFi solution design using profound knowledge of blockchain tech and token mechanics.",
+    tags: [{ name: "Solidity", color: "orange-text-gradient" }],
+    image: evo,
+    online_link: "https://www.evo.exchange/",
+    source_code_link:
+      "https://github.com/kai-610/evox-margintrading-smart-contracts.git",
+  },
+  {
+    name: "Poker Game",
+    description:
+      "Our Poker Game is a full-stack web application built using modern technologies like React, Node.js, and MongoDB. Players can join rooms, play Texas Hold'em style poker, and compete against opponents in real-time.",
+    tags: [
+      { name: "React", color: "green-text-gradient" },
+      { name: "Node", color: "blue-text-gradient" },
+    ],
+    image: poker,
+    vercel_link: "https://react-poker-two.vercel.app/",
+    source_code_link: "https://github.com/kai-610/React_Poker.git",
+  },
+  {
+    name: "JudgePrivateSale",
+    description:
+      "Judge privatesale platform is a decentralized crowdfunding solution built on the Solana blockchain, providing secure and swift token sales through customizable whitelisting and allocation management, streamlined purchase flows, and real-time analytics.",
+    tags: [
+      { name: "React", color: "orange-text-gradient" },
+      { name: "Rust", color: "blue-text-gradient" },
+      { name: "Solana", color: "green-text-gradient" },
+      { name: "web3", color: "orange-text-gradient" },
+    ],
+    image: judge,
+    vercel_link: "https://jarvis-solana-presale-frontend.vercel.app/",
+    source_code_link:
+      "https://github.com/kai-610/Jarvis-Solana-Presale-Frontend-.git",
+  },
+  {
     name: "Forta Threat Intelligence",
     description:
       "Forta network is a defi project which aims for providing several interesting data feeds like detecting scam, crypto phishing, spamming etc powering by AI.",
-    tags: [],
+    tags: [
+      { name: "React", color: "orange-text-gradient" },
+      { name: "Solidity", color: "blue-text-gradient" },
+    ],
     image: forta,
     online_link: "https://app.forta.network/?search=",
   },
@@ -225,7 +297,10 @@ const projects = [
     name: "Solana Token Sale Contract",
     description:
       "Smart contract designed for facilitating the sale of SPL tokens with additional features, including a presale mechanism and allocation tickets. The contract is built using the Anchor framework",
-    tags: [],
+    tags: [
+      { name: "Solana", color: "orange-text-gradient" },
+      { name: "Solidity", color: "blue-text-gradient" },
+    ],
     image: solana_token,
     source_code_link: "https://github.com/kai-610/spl-vending-machine",
     online_link:
@@ -235,14 +310,20 @@ const projects = [
     name: "Xion-finance",
     description:
       "Xion finance is a Decentralized Exchange which is similar to uniswap and pancakeswap but also supports the despoit and withdraw from the bank",
-    tags: [],
+    tags: [
+      { name: "Solidity", color: "orange-text-gradient" },
+      { name: "Web3", color: "blue-text-gradient" },
+    ],
     image: xion_finance,
     online_link: "https://www.xion.finance/",
   },
   {
     name: "Dicether",
     description: "Enjoy this on-chain crypto casino game with EVM networks",
-    tags: [],
+    tags: [
+      { name: "React", color: "orange-text-gradient" },
+      { name: "Node", color: "blue-text-gradient" },
+    ],
     image: dicether,
     online_link: "https://dicether.com/",
   },
@@ -250,7 +331,11 @@ const projects = [
     name: "Quest",
     description:
       "Developer friendly game platform which you can test and enjoy your game products with EVM test networks like goerli and sepolia etc",
-    tags: [],
+    tags: [
+      { name: "Solidity", color: "orange-text-gradient" },
+      { name: "Web3", color: "blue-text-gradient" },
+      { name: "React", color: "orange-text-gradient" },
+    ],
     image: quest,
     online_link: "https://testnet.gg.quest/",
   },
