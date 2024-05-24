@@ -135,34 +135,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Smart contract developer",
+    title: "Blockchain developer",
     company_name: "dApp Technology Inc",
+    company_link: "https://www.dapp-inc.com/",
     icon: solidity,
     iconBg: "#E6DEDD",
     date: "2022 – 2024",
     points: [
-      "Built several smart contracts of different features such as extension of ERC3525 semi-fungible token standard, random number generation using Solidity and Foundry framework.",
-      "Implemented important logic in P2E games to extend ERC4907 (NFT rental) standard and enabled to split profits between owner, borrower, and third parties, and developed smart contract using Beacon Proxy that deploys the profit share given an ERC721 regular NFT.",
-      "Developed subgraph that watches events of the three smart contracts, i.e. factory, manager, NFT valut to dynamically watch data sources.",
+      "I have worked as a blockchain developer on there and I have worked on EVM based chains, Solana chain and I was concentrated in NFTs and NFT marketplaces and highly customized smart contract creation.",
+      "• Experienced in managing the team of 5 developers as a team lead and distribution of technical requirements among the developers.",
+      "• Experienced in gathering business requirements from the clients and give them the technical blockchain solutions.",
+      "• Proficient in designing the robust architecture solution for the system and also provide the scalability approaches for the system.",
     ],
   },
 
   {
-    title: "Full Stack and Web3 Engineer",
-    company_name: "InfoDrive Solutions",
+    title: "Smart contract developer",
+    company_name: "dApp Technology Inc",
+    company_link: "https://www.dapp-inc.com/",
     icon: threejs,
     iconBg: "#E6DEDD",
     date: "2019 – 2022",
     points: [
-      "Collaborated with full stack and UE developers to integrate smart contracts with the decentralized applications.",
-      "Developed a custom cryptocurrency token with unique staking/minting functionality, currently powering Belacam.com, a cryptocurrency-centric Instagram competitor.",
-      "Worked as a full stack blockchain developer focused on building innovative web3 features and supporting infrastructure to maximize yield generation across multiple blockchains and DeFi protocols.",
+      "• Built several smart contracts of different features such as extension of ERC3525 semi-fungible token standard, random number generation using Solidity and Foundry framework.",
+      "• Implemented important logic in P2E games to extend ERC4907 (NFT rental) standard and enabled to split profits between owner, borrower, and third parties, and developed smart contract using Beacon Proxy that deploys the profit share given an ERC721 regular NFT.",
+      "• Developed subgraph that watches events of the three smart contracts, i.e. factory, manager, NFT valut to dynamically watch data sources.",
     ],
   },
 
   {
     title: "Full Stack developer",
     company_name: "PLEXURE",
+    company_link: "https://www.plexure.com.sg/",
     icon: html,
     iconBg: "#E6DEDD",
     date: "2016 – 2019",
