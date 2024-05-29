@@ -1,22 +1,23 @@
 import { useState, useEffect } from "react";
 
 export default function VisitorCounter() {
-  const [visitorCount, setVisitorCount] = useState(0);
+  const [visitorCount, setVisitorCount] = useState('0');
 
   useEffect(() => {
-    let storedCount = localStorage.getItem("visitorCount");
-
-    if (storedCount === null) {
-      storedCount = "0";
-      localStorage.setItem("visitorCount", storedCount);
-    }
-
-    setVisitorCount(parseInt(storedCount));
-
-    localStorage.setItem(
-      "visitorCount",
-      (parseInt(storedCount) + 1).toString()
-    );
+    let now = new Date();
+    let user = now.getTime() % 1000;
+    let currentUser = user.toString();
+    let value = localStorage.getItem("myVisitor");
+    console.log(value);
+    if (value === null)
+      {value = currentUser;
+      localStorage.setItem("myVisitor", value);}
+    else
+      localStorage.setItem(
+        "myVisitor",
+        (parseInt(value) + 1).toString()
+      );
+    setVisitorCount(value);
   }, []);
 
   return (
