@@ -65,6 +65,8 @@ import evo from "./projectimg/evo.png"
 import clarityscan from './projectimg/clarityscan.png'
 import sigma from './projectimg/sigma.png'
 import poker from './projectimg/poker.png'
+import snippool from './projectimg/snippool.png'
+import xdx_frontend from './projectimg/xdx-frontend.png'
 
 
 export {
@@ -130,4 +132,6 @@ export {
   clarityscan,
   sigma,
   poker,
+  snippool,
+  xdx_frontend,
 };

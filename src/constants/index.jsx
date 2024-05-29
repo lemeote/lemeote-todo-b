@@ -54,6 +54,8 @@ import {
   clarityscan,
   sigma,
   poker,
+  snippool,
+  xdx_frontend,
 } from "../assets";
 
 export const navLinks = [
@@ -311,6 +313,21 @@ const projects = [
       "https://support.gemini.com/hc/en-us/articles/4428485024155-What-is-an-SPL-token",
   },
   {
+    name: "SNIP POOL",
+    description:
+      "Snippool is an NFT AMM inspired by Sudoswap where users can create pools, buy and sell NFTs, add pools to vaults to get rewards.",
+    tags: [
+      { name: "Next.js", color: "orange-text-gradient" },
+      { name: "Material UI", color: "blue-text-gradient" },
+      { name: "styled Component", color: "orange-text-gradient" },
+      { name: "Solidity", color: "blue-text-gradient" },
+      { name: "Wagmi", color: "orange-text-gradient" },
+      { name: "RainbowKit", color: "blue-text-gradient" },
+    ],
+    image: snippool,
+    online_link: "https://www.snippool.xyz/Collections",
+  },
+  {
     name: "Xion-finance",
     description:
       "Xion finance is a Decentralized Exchange which is similar to uniswap and pancakeswap but also supports the despoit and withdraw from the bank",
@@ -320,6 +337,20 @@ const projects = [
     ],
     image: xion_finance,
     online_link: "https://www.xion.finance/",
+  },
+  {
+    name: "XDX Exchange",
+    description:
+      "XDX is a decentralized exchange deployed on Avalanche with low swap fees and no price impact. It engages a liquidity shared mechanism called XDX to faciliate trades. XDX is the utility and governance token of the protocol.",
+    tags: [
+      { name: "React.js", color: "orange-text-gradient" },
+      { name: "Ethers.js", color: "blue-text-gradient" },
+      { name: "Solidity", color: "orange-text-gradient" },
+      { name: "Hardhat", color: "blue-text-gradient" },
+      { name: "subgraph", color: "orange-text-gradient" },
+    ],
+    image: xdx_frontend,
+    vercel_link: "https://xdx-frontend.vercel.app/#/dashboard",
   },
   {
     name: "Dicether",
