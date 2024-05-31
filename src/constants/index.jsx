@@ -56,6 +56,7 @@ import {
   poker,
   snippool,
   xdx_frontend,
+  alphaneural,
 } from "../assets";
 
 export const navLinks = [
@@ -185,45 +186,56 @@ const testimonials = [
   {
     key: 1,
     testimonial:
-      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Mark Henrry",
-    image: linkedin,
-    link: "https://www.linkedin.com/in/om-patel-401068143/",
+      "Discord is powerful community for developers. Reach out to me on Discord.",
+    name: "lemeote",
+    image: discord,
+    link: "https://discordapp.com/users/1124515626434691142",
   },
   {
     key: 2,
     testimonial:
-      "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
+      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
     name: "Mark Henrry",
-    image: github,
-    link: "https://github.com/x-610",
+    image: linkedin,
+    link: "",
   },
   {
     key: 3,
+    testimonial: "Skype is software that enables the world's conversations.",
+    name: "Dream",
+    image: skype,
+    link: "https://join.skype.com/invite/uCPWNFt8hrkc",
+  },
+  {
+    key: 4,
     testimonial:
       "Gmail is a widely used email service provided by Google. please check my gmail account.",
     name: "Mark Henrry",
     image: gmail,
     link: "mailto:brightstar681206@gmail.com",
   },
-  {
-    key: 4,
-    testimonial:
-      "Discord is powerful community for developers. Reach out to me on Discord.",
-    name: "lemeote",
-    image: discord,
-    link: "https://discord.gg/B9yz4n5bJ4",
-  },
+
   {
     key: 5,
-    testimonial: "Skype is software that enables the world's conversations.",
-    name: "Dream",
-    image: skype,
-    link: "https://join.skype.com/invite/uCPWNFt8hrkc",
+    testimonial:
+      "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
+    name: "Mark Henrry",
+    image: github,
+    link: "https://github.com/x-610",
   },
 ];
 
 const projects = [
+  {
+    name: "Evox Exchange",
+    description:
+      "Developing EVOX Exchange's smart contracts empowering decentralized margin trading and DAO governance exhibits my expertise in inventive DeFi solution design using profound knowledge of blockchain tech and token mechanics.",
+    tags: [{ name: "Solidity", color: "orange-text-gradient" }],
+    image: evo,
+    online_link: "https://www.evo.exchange/",
+    source_code_link:
+      "https://github.com/x-610/evox-margintrading-smart-contracts.git",
+  },
   {
     name: "SigmaSwap Bridge",
     description:
@@ -251,28 +263,7 @@ const projects = [
     netlify_link: "https://main.d8cg59j3fa9ta.amplifyapp.com/",
     source_code_link: "https://github.com/x-610/clarityscan-frontend.git",
   },
-  {
-    name: "Evox Exchange",
-    description:
-      "Developing EVOX Exchange's smart contracts empowering decentralized margin trading and DAO governance exhibits my expertise in inventive DeFi solution design using profound knowledge of blockchain tech and token mechanics.",
-    tags: [{ name: "Solidity", color: "orange-text-gradient" }],
-    image: evo,
-    online_link: "https://www.evo.exchange/",
-    source_code_link:
-      "https://github.com/x-610/evox-margintrading-smart-contracts.git",
-  },
-  {
-    name: "Poker Game",
-    description:
-      "Our Poker Game is a full-stack web application built using modern technologies like React, Node.js, and MongoDB. Players can join rooms, play Texas Hold'em style poker, and compete against opponents in real-time.",
-    tags: [
-      { name: "React", color: "green-text-gradient" },
-      { name: "Node", color: "blue-text-gradient" },
-    ],
-    image: poker,
-    vercel_link: "https://react-poker-two.vercel.app/",
-    source_code_link: "https://github.com/x-610/React_Poker.git",
-  },
+
   {
     name: "JudgePrivateSale",
     description:
@@ -287,6 +278,19 @@ const projects = [
     vercel_link: "https://jarvis-solana-presale-frontend.vercel.app/",
     source_code_link:
       "https://github.com/x-610/Jarvis-Solana-Presale-Frontend-.git",
+  },
+  {
+    name: "AlphaNeural AI",
+    description:
+      "Revolutionizing AI Development with Blockchain Integration At the forefront of technological innovation, AlphaNeural AI synergizes the power of artificial intelligence (AI) with the security and transparency of blockchain technology.",
+    tags: [
+      { name: "Next", color: "orange-text-gradient" },
+      { name: "Node", color: "blue-text-gradient" },
+      { name: "Rust", color: "green-text-gradient" },
+    ],
+    image: alphaneural,
+    vercel_link: "https://alpha-neural.vercel.app/",
+    source_code_link: "https://github.com/x-610/AlphaNeural",
   },
   {
     name: "Forta Threat Intelligence",
@@ -313,13 +317,23 @@ const projects = [
       "https://support.gemini.com/hc/en-us/articles/4428485024155-What-is-an-SPL-token",
   },
   {
+    name: "Poker Game",
+    description:
+      "Our Poker Game is a full-stack web application built using modern technologies like React, Node.js, and MongoDB. Players can join rooms, play Texas Hold'em style poker, and compete against opponents in real-time.",
+    tags: [
+      { name: "React", color: "green-text-gradient" },
+      { name: "Node", color: "blue-text-gradient" },
+    ],
+    image: poker,
+    vercel_link: "https://react-poker-two.vercel.app/",
+    source_code_link: "https://github.com/x-610/React_Poker.git",
+  },
+  {
     name: "SNIP POOL",
     description:
       "Snippool is an NFT AMM inspired by Sudoswap where users can create pools, buy and sell NFTs, add pools to vaults to get rewards.",
     tags: [
       { name: "Next.js", color: "orange-text-gradient" },
-      { name: "Material UI", color: "blue-text-gradient" },
-      { name: "styled Component", color: "orange-text-gradient" },
       { name: "Solidity", color: "blue-text-gradient" },
       { name: "Wagmi", color: "orange-text-gradient" },
       { name: "RainbowKit", color: "blue-text-gradient" },
@@ -347,7 +361,6 @@ const projects = [
       { name: "Ethers.js", color: "blue-text-gradient" },
       { name: "Solidity", color: "orange-text-gradient" },
       { name: "Hardhat", color: "blue-text-gradient" },
-      { name: "subgraph", color: "orange-text-gradient" },
     ],
     image: xdx_frontend,
     vercel_link: "https://xdx-frontend.vercel.app/#/dashboard",

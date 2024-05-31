@@ -67,6 +67,7 @@ import sigma from './projectimg/sigma.png'
 import poker from './projectimg/poker.png'
 import snippool from './projectimg/snippool.png'
 import xdx_frontend from './projectimg/xdx-frontend.png'
+import alphaneural from './projectimg/alphaneural.png'
 
 
 export {
@@ -134,4 +135,5 @@ export {
   poker,
   snippool,
   xdx_frontend,
+  alphaneural,
 };
