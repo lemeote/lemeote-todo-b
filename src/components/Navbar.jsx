@@ -44,9 +44,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-         <a href="https://github.com/X-610" target="_blank"><img src={mylogo} alt="logo" className="w-9 h-9 object-contain" /></a> 
+         <a href="https://github.com/lemeote" target="_blank"><img src={mylogo} alt="logo" className="w-9 h-9 object-contain" /></a> 
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-           Mark &nbsp; <span className="sm:block hidden ">|&nbsp; x-610</span>
+           Mark &nbsp; <span className="sm:block hidden ">|&nbsp; lemeote</span>
           </p>
         </Link>
 

@@ -195,7 +195,7 @@ const testimonials = [
     key: 2,
     testimonial:
       "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Mark Henrry",
+    name: "Mark Henry",
     image: linkedin,
     link: "",
   },
@@ -210,7 +210,7 @@ const testimonials = [
     key: 4,
     testimonial:
       "Gmail is a widely used email service provided by Google. please check my gmail account.",
-    name: "Mark Henrry",
+    name: "Mark Henry",
     image: gmail,
     link: "mailto:dorastiku@gmail.com",
   },
@@ -219,7 +219,7 @@ const testimonials = [
     key: 5,
     testimonial:
       "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-    name: "Mark Henrry",
+    name: "Mark Henry",
     image: github,
     link: "https://github.com/lemeote",
   },
