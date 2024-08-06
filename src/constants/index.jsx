@@ -212,7 +212,7 @@ const testimonials = [
       "Gmail is a widely used email service provided by Google. please check my gmail account.",
     name: "Mark Henrry",
     image: gmail,
-    link: "mailto:brightstar681206@gmail.com",
+    link: "mailto:dorastiku@gmail.com",
   },
 
   {
@@ -221,7 +221,7 @@ const testimonials = [
       "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
     name: "Mark Henrry",
     image: github,
-    link: "https://github.com/x-610",
+    link: "https://github.com/lemeote",
   },
 ];
 
@@ -234,7 +234,7 @@ const projects = [
     image: evo,
     online_link: "https://www.evo.exchange/",
     source_code_link:
-      "https://github.com/x-610/evox-margintrading-smart-contracts.git",
+      "https://github.com/lemeote/evox-margintrading-smart-contracts.git",
   },
   {
     name: "SigmaSwap Bridge",
@@ -247,7 +247,7 @@ const projects = [
     ],
     image: sigma,
     vercel_link: "https://m8-b-bridge-app.vercel.app/en",
-    source_code_link: "https://github.com/x-610/M8B_BridgeApp.git",
+    source_code_link: "https://github.com/lemeote/M8B_BridgeApp.git",
   },
   {
     name: "ClarityScan",
@@ -261,7 +261,7 @@ const projects = [
     ],
     image: clarityscan,
     netlify_link: "https://main.d8cg59j3fa9ta.amplifyapp.com/",
-    source_code_link: "https://github.com/x-610/clarityscan-frontend.git",
+    source_code_link: "https://github.com/lemeote/clarityscan-frontend.git",
   },
 
   {
@@ -277,7 +277,7 @@ const projects = [
     image: judge,
     vercel_link: "https://jarvis-solana-presale-frontend.vercel.app/",
     source_code_link:
-      "https://github.com/x-610/Jarvis-Solana-Presale-Frontend-.git",
+      "https://github.com/lemeote/Jarvis-Solana-Presale-Frontend-.git",
   },
   {
     name: "AlphaNeural AI",
@@ -290,7 +290,7 @@ const projects = [
     ],
     image: alphaneural,
     vercel_link: "https://alpha-neural.vercel.app/",
-    source_code_link: "https://github.com/x-610/AlphaNeural",
+    source_code_link: "https://github.com/lemeote/AlphaNeural",
   },
   {
     name: "Forta Threat Intelligence",
@@ -312,7 +312,7 @@ const projects = [
       { name: "Solidity", color: "blue-text-gradient" },
     ],
     image: solana_token,
-    source_code_link: "https://github.com/x-610/spl-vending-machine",
+    source_code_link: "https://github.com/lemeote/spl-vending-machine",
     online_link:
       "https://support.gemini.com/hc/en-us/articles/4428485024155-What-is-an-SPL-token",
   },
@@ -326,7 +326,7 @@ const projects = [
     ],
     image: poker,
     vercel_link: "https://react-poker-two.vercel.app/",
-    source_code_link: "https://github.com/x-610/React_Poker.git",
+    source_code_link: "https://github.com/lemeote/React_Poker.git",
   },
   {
     name: "SNIP POOL",
@@ -394,7 +394,7 @@ const projects = [
     tags: [],
     image: centrifuge,
     online_link: "https://www.kraken.com/learn/what-is-centrifuge-cfg",
-    source_code_link: "https://github.com/x-610/centrifuge-chain",
+    source_code_link: "https://github.com/lemeote/centrifuge-chain",
   },
   {
     name: "BlogTO Bot",
@@ -402,7 +402,7 @@ const projects = [
       "BlogTO Bot is a Twitter bot that reads blogTO's clickbaity tweets and replies with a short summary of the article",
     tags: [],
     image: twitterbot,
-    source_code_link: "https://github.com/x-610/BlogTOBot",
+    source_code_link: "https://github.com/lemeote/BlogTOBot",
     online_link: "https://en.wikipedia.org/wiki/Twitter_bot",
   },
   {
